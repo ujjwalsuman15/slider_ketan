@@ -1,0 +1,180 @@
+/* ========================= universal selector start =========================*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+/* ========================= /universal selector end =========================*/
+
+/* ========================= universal css start ========================= */
+.text-orange {
+    color: #ea512e;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.ptb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ========================= /universal css end ========================= */
+
+/* --------------------------------------- testimonial starts -------------------------- */
+.testimonial span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.testimonial h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.testimonial .card-teacher {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #fee9ca;
+    cursor: default;
+}
+
+.testimonial .card-teacher div.icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    line-height: 77px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #fff;
+    transition: all 0.5s linear;
+
+}
+
+.testimonial .card-teacher:hover div.icon {
+    background: #ea512e;
+    transition: all 0.5s linear;
+
+}
+
+.testimonial .card-teacher:hover div.icon .fa-quote-left {
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+.testimonial .card-teacher p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #6b6b84;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.testimonial .card-teacher .info-box h3 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.testimonial .card-teacher .info-box span {
+    display: block;
+    color: #ea512e;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+}
+
+.testimonial button {
+    color: #fff;
+    transition: 0.6s;
+    border-radius: 50%;
+    background: #ea512e;
+}
+
+.testimonial button:hover {
+    transition: 0.6s;
+    background: #f5890d;
+}
+
+.text-fa {
+    font-family: 'Roboto', sans-serif, FontAwesome;
+}
+
+.testimonial .row>* {
+    padding-left: 0px;
+}
+
+.prev,
+.next {
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+.slides:hover .prev {
+    visibility: visible;
+}
+
+.slides:hover .next {
+    visibility: visible;
+}
+
+.slider-main {
+    transition: 0.6s;
+}
+
+.testimonial:hover .prev {
+    visibility: visible;
+}
+
+.testimonial:hover .next {
+    visibility: visible;
+}
+
+/* --------------------------------------- /testimonial section end -------------------------- */
+
+
+/* ========================= copyright Section start ========================= */
+
+div.copyright {
+    background: #091629;
+}
+
+div.copyright .copyright-content {
+    text-align: center;
+}
+
+div.copyright .copyright-content p {
+    color: #fff;
+    margin: 0px;
+}
+
+div.copyright .copyright-content p a {
+    font-weight: 600;
+    color: #ea512e;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ========================= /copyright Section End ========================= */
